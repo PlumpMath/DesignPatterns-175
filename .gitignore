@@ -1,0 +1,5 @@
+#.gitignore
+# bin dir is ignored
+
+DesignPattern/bin/
+
