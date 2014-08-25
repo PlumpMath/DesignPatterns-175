@@ -9,7 +9,7 @@ namespace DesignPattern
 	/// <summary>
 	/// シングルトンの実装
 	/// </summary>
-	class Singleton
+	public class Singleton
 	{
 		// 唯一のインスタンス
 		private static Singleton singleton = new Singleton();
@@ -29,6 +29,17 @@ namespace DesignPattern
 		public static Singleton GetInstance()
 		{
 			return singleton;
+		}
+	}
+
+	/// <summary>
+	/// 比較用ダミークラス
+	/// </summary>
+	public class Hoge
+	{
+		public Hoge()
+		{
+			// 何もしない
 		}
 	}
 }
